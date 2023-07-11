@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/abCandy/static/css/main.acb8b896.css",
+    "main.js": "/abCandy/static/js/main.e6926b18.js",
+    "static/js/787.3a8781e4.chunk.js": "/abCandy/static/js/787.3a8781e4.chunk.js",
+    "static/media/ads-bg-1.png": "/abCandy/static/media/ads-bg-1.0b238a0c77639cd19f6a.png",
+    "static/media/mobile.png": "/abCandy/static/media/mobile.a8734dc0f652cdf6525b.png",
+    "static/media/slider1.png": "/abCandy/static/media/slider1.47a8cf63d21f2381475a.png",
+    "static/media/slider3.png": "/abCandy/static/media/slider3.9369417837aec552804b.png",
+    "static/media/slide2.png": "/abCandy/static/media/slide2.8f210e9c24e140fa4f37.png",
+    "static/media/ads-bg-2.png": "/abCandy/static/media/ads-bg-2.936eacefa066be427710.png",
+    "static/media/blog1.png": "/abCandy/static/media/blog1.5aa752711a3c0b238149.png",
+    "static/media/Rectangle 5.png": "/abCandy/static/media/Rectangle 5.7d86ef32d8925b2c81bb.png",
+    "static/media/Rectangle 6.png": "/abCandy/static/media/Rectangle 6.dd935c0fb3c0bfcab457.png",
+    "static/media/blog2.png": "/abCandy/static/media/blog2.715394b0f92a51b9d695.png",
+    "static/media/blog3.png": "/abCandy/static/media/blog3.8813bdf981221ee389d1.png",
+    "index.html": "/abCandy/index.html",
+    "main.acb8b896.css.map": "/abCandy/static/css/main.acb8b896.css.map",
+    "main.e6926b18.js.map": "/abCandy/static/js/main.e6926b18.js.map",
+    "787.3a8781e4.chunk.js.map": "/abCandy/static/js/787.3a8781e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acb8b896.css",
+    "static/js/main.e6926b18.js"
+  ]
+}
