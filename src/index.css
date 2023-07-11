@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,76 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide>img {
+  opacity: 40%;
+}
+
+.slider-abCandy .swiper-slide img {
+  width: 100%;
+  max-height: 400px !important;
+  object-fit: cover;
+}
+
+.sliderBlog .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sliderBlog .swiper {
+
+  height: 100%;
+
+}
+
+.swiper-slide-active>img {
+  opacity: 100%;
+}
+
+.swiper-slide-active>.caption-content {
+  display: block;
+}
+
+.swiper-slide-prev>.custom-prev-button {
+  display: inline-block !important;
+  opacity: 100%;
+}
+
+.swiper-slide-next>.custom-next-button {
+  display: inline-block !important;
+  opacity: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #5742AC !important;
+}
+
+
+
+.slider-abCandy {
+  background: radial-gradient(100.62% 77.23% at 15.90% 30.71%, #D1EFFF 0%, rgba(209, 239, 255, 0.00) 100%),
+    radial-gradient(100% 200% at 100% 100%, #FBD1FF 0%, rgba(249, 181, 255, 0) 100%);
+  clip-path: path('M0 0H1920V1018C1920 1018 1306.67 1078 960 1078C613.33 1078 0 1018 0 1018V0Z');
+
+}
+
+
+
+@media (max-width: 1440px) {
+  .slider-abCandy {
+    clip-path: path('M0 0H1440V1018C1440 1018 1002.15 1078 720 1078C437.848 1078 0 1018 0 1018V0Z') !important;
+  }
+}
+
+.ads-1 {
+  background-image: url(./Images/ads-bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 434px;
 }
