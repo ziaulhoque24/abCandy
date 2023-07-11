@@ -28,6 +28,7 @@ export default function Ads2() {
           </button>
         </div>
       </div>
+      {/* modal for contact form */}
       <Modal isOpen={isOpen} onClose={onClose} className={"w-[575px]"}>
         <ContactForm onClose={onClose} />
       </Modal>

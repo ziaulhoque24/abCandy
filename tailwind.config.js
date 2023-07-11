@@ -22,6 +22,10 @@ module.exports = {
         xl: "1290px",
         "2xl": "1290px",
       },
+      fontFamily: {
+        sans: ["DM Sans", "sans-serif"],
+        lora: ["Lora", "serif"],
+      },
     },
   },
   plugins: [],

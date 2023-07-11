@@ -11,13 +11,17 @@ import SingleBlog2 from "./Blog/SingleBlog2";
 import SingleVideo from "./Blog/SingleVideo";
 import BlogHeader from "./BlogHeader";
 import BlogSlider from "./BlogSlider/BlogSlider";
+
 export default function Blogs() {
   const [isMore, setMore] = useState(false);
   return (
     <>
       <div className='relative mt-[-300px] z-10'>
         <div className='flex flex-col gap-10'>
+          {/* header */}
           <BlogHeader />
+
+          {/* section 1 */}
           <div className='container flex md:flex-row flex-col gap-8'>
             <div className='md:w-1/2'>
               <BlogSlider />
@@ -26,9 +30,13 @@ export default function Blogs() {
               <SingleVideo img={img} />
             </div>
           </div>
+
+          {/* section 2 */}
           <div className='container'>
             <Ads1 />
           </div>
+
+          {/* section 3 */}
           <div className='container flex md:flex-row flex-col justify-between gap-8'>
             <div className='md:w-[75%] bg-[#F5F4FB]'>
               <SingleBlog img={mobile} />
@@ -37,11 +45,15 @@ export default function Blogs() {
               <Ads2 />
             </div>
           </div>
+
+          {/* section 4 */}
           <div className='container flex md:flex-row flex-col justify-between gap-8'>
             <SingleBlog2 img={blog1} />
             <SingleBlog2 img={blog2} />
             <SingleBlog2 img={blog3} />
           </div>
+
+          {/* more content */}
           {isMore && (
             <div className='container flex md:flex-row flex-col justify-between gap-8 pb-8'>
               <SingleBlog2 img={blog1} />

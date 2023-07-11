@@ -6,6 +6,7 @@ import { BsArrowLeft, BsArrowRight } from "../../Icons/Icons";
 import silder2 from "../../Images/slide2.png";
 import silder1 from "../../Images/slider1.png";
 import silder3 from "../../Images/slider3.png";
+import Caption from "./Caption";
 
 export default function Carousel() {
   const customNextButton = (
@@ -40,169 +41,37 @@ export default function Carousel() {
             <img src={silder1} alt='' />
             {customNextButton}
             {customPrevButton}
-            <div className='caption-content hidden'>
-              <div className='px-3 md:px-8 bg-white'>
-                <div className='flex items-center gap-1 py-2 md:py-4'>
-                  <span className='text-sm font-semibold uppercase'>
-                    Design & Creative
-                  </span>
-                  <span className='text-sm font-normal'>10 June 2023</span>
-                </div>
-                <h1 className='md:text-[32px] text-lg font-[500]'>
-                  Lorem ipsum dolor sit amet consectetur
-                </h1>
-                <p className='hidden md:block text-lg pt-[10px] pb-[20px]'>
-                  Lorem ipsum dolor sit amet consectetur. Egestas aliquet quam
-                  consectetur elementum aenean fringilla amet blandit duis.
-                  Neque habitant odio donec adipiscing etiam lobortis volutpat
-                  est...
-                </p>
-                <button className='text-primary border border-primary px-5 py-[7px] text-base font-[500] mb-5 mt-2'>
-                  Read More
-                </button>
-                <div className='mb-[40px]'></div>
-              </div>
-            </div>
+            <Caption />
           </SwiperSlide>
           <SwiperSlide>
             <img src={silder2} alt='' />
             {customNextButton}
             {customPrevButton}
-            <div className='caption-content hidden'>
-              <div className='px-8 bg-white'>
-                <div className='flex items-center gap-2 py-4'>
-                  <span className='text-sm font-semibold uppercase'>
-                    Design & Creative
-                  </span>
-                  <span className='text-sm font-normal'>10 June 2023</span>
-                </div>
-                <h1 className='text-[32px] font-[500]'>
-                  Lorem ipsum dolor sit amet consectetur
-                </h1>
-                <p className='text-lg pt-[10px] pb-[20px]'>
-                  Lorem ipsum dolor sit amet consectetur. Egestas aliquet quam
-                  consectetur elementum aenean fringilla amet blandit duis.
-                  Neque habitant odio donec adipiscing etiam lobortis volutpat
-                  est...
-                </p>
-                <button className='text-primary border border-primary px-5 py-[7px] text-base font-[500] mb-5'>
-                  Read More
-                </button>
-                <div className='mb-[40px]'></div>
-              </div>
-            </div>
+            <Caption />
           </SwiperSlide>
           <SwiperSlide>
             <img src={silder3} alt='' />
             {customNextButton}
             {customPrevButton}
-            <div className='caption-content hidden'>
-              <div className='px-8 bg-white'>
-                <div className='flex items-center gap-2 py-4'>
-                  <span className='text-sm font-semibold uppercase'>
-                    Design & Creative
-                  </span>
-                  <span className='text-sm font-normal'>10 June 2023</span>
-                </div>
-                <h1 className='text-[32px] font-[500]'>
-                  Lorem ipsum dolor sit amet consectetur
-                </h1>
-                <p className='text-lg pt-[10px] pb-[20px]'>
-                  Lorem ipsum dolor sit amet consectetur. Egestas aliquet quam
-                  consectetur elementum aenean fringilla amet blandit duis.
-                  Neque habitant odio donec adipiscing etiam lobortis volutpat
-                  est...
-                </p>
-                <button className='text-primary border border-primary px-5 py-[7px] text-base font-[500] mb-5'>
-                  Read More
-                </button>
-                <div className='mb-[40px]'></div>
-              </div>
-            </div>
+            <Caption />
           </SwiperSlide>
           <SwiperSlide>
             <img src={silder1} alt='' />
             {customNextButton}
             {customPrevButton}
-            <div className='caption-content hidden'>
-              <div className='px-8 bg-white'>
-                <div className='flex items-center gap-2 py-4'>
-                  <span className='text-sm font-semibold uppercase'>
-                    Design & Creative
-                  </span>
-                  <span className='text-sm font-normal'>10 June 2023</span>
-                </div>
-                <h1 className='text-[32px] font-[500]'>
-                  Lorem ipsum dolor sit amet consectetur
-                </h1>
-                <p className='text-lg pt-[10px] pb-[20px]'>
-                  Lorem ipsum dolor sit amet consectetur. Egestas aliquet quam
-                  consectetur elementum aenean fringilla amet blandit duis.
-                  Neque habitant odio donec adipiscing etiam lobortis volutpat
-                  est...
-                </p>
-                <button className='text-primary border border-primary px-5 py-[7px] text-base font-[500] mb-5'>
-                  Read More
-                </button>
-                <div className='mb-[40px]'></div>
-              </div>
-            </div>
+            <Caption />
           </SwiperSlide>
           <SwiperSlide>
             <img src={silder2} alt='' />
             {customNextButton}
             {customPrevButton}
-            <div className='caption-content hidden'>
-              <div className='px-8 bg-white'>
-                <div className='flex items-center gap-2 py-4'>
-                  <span className='text-sm font-semibold uppercase'>
-                    Design & Creative
-                  </span>
-                  <span className='text-sm font-normal'>10 June 2023</span>
-                </div>
-                <h1 className='text-[32px] font-[500]'>
-                  Lorem ipsum dolor sit amet consectetur
-                </h1>
-                <p className='text-lg pt-[10px] pb-[20px]'>
-                  Lorem ipsum dolor sit amet consectetur. Egestas aliquet quam
-                  consectetur elementum aenean fringilla amet blandit duis.
-                  Neque habitant odio donec adipiscing etiam lobortis volutpat
-                  est...
-                </p>
-                <button className='text-primary border border-primary px-5 py-[7px] text-base font-[500] mb-5'>
-                  Read More
-                </button>
-                <div className='mb-[40px]'></div>
-              </div>
-            </div>
+            <Caption />
           </SwiperSlide>
           <SwiperSlide>
             <img src={silder3} alt='' />
             {customNextButton}
             {customPrevButton}
-            <div className='caption-content hidden'>
-              <div className='px-8 bg-white'>
-                <div className='flex items-center gap-2 py-4'>
-                  <span className='text-sm font-semibold uppercase'>
-                    Design & Creative
-                  </span>
-                  <span className='text-sm font-normal'>10 June 2023</span>
-                </div>
-                <h1 className='text-[32px] font-[500]'>
-                  Lorem ipsum dolor sit amet consectetur
-                </h1>
-                <p className='text-lg pt-[10px] pb-[20px]'>
-                  Lorem ipsum dolor sit amet consectetur. Egestas aliquet quam
-                  consectetur elementum aenean fringilla amet blandit duis.
-                  Neque habitant odio donec adipiscing etiam lobortis volutpat
-                  est...
-                </p>
-                <button className='text-primary border border-primary px-5 py-[7px] text-base font-[500] mb-5'>
-                  Read More
-                </button>
-                <div className='mb-[40px]'></div>
-              </div>
-            </div>
+            <Caption />
           </SwiperSlide>
         </Swiper>
       </div>

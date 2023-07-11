@@ -12,7 +12,7 @@ export default function SingleBlog2({ img }) {
             <span className='text-sm font-semibold uppercase'>Corporate</span>
             <span className='text-sm font-normal'>10 June 2023</span>
           </div>
-          <h1 className='lg:text-2xl text-base font-[500] pb-[14px]'>
+          <h1 className='lg:text-2xl text-base font-[500] pb-[14px] font-lora'>
             Lorem ipsum dolor sit amet consectetur bibendum nunc in amet auctor
             enim massa
           </h1>

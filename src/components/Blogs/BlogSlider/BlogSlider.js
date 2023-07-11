@@ -41,7 +41,7 @@ export default function BlogSlider() {
             </span>
             <span className='text-sm font-normal'>10 June 2023</span>
           </div>
-          <h1 className='text-2xl font-[500]'>
+          <h1 className='text-2xl font-[500] font-lora'>
             Lorem ipsum dolor sit amet consectetur
           </h1>
           <p className='text-base pt-[10px] pb-[20px]'>
